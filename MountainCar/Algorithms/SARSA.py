@@ -1,5 +1,6 @@
-# Enhanced TD Learning with comprehensive data collection for visualization
-
+import sys
+import os
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 import numpy as np
 import gymnasium as gym
 import time
@@ -160,3 +161,6 @@ def main():
 
 if __name__ == "__main__":
     main()
+
+
+
